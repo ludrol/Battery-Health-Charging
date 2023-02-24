@@ -1,0 +1,103 @@
+{
+    "overrides": [
+        {
+            "files": ["./11/extension.js"],
+            "rules": {
+                "no-unused-vars": [
+                    2,
+                    {
+                    "varsIgnorePattern": "init|enable|disable"
+                    }
+                ]
+            }
+        },
+        {
+            "files": ["./11/prefs.js"],
+            "rules": {
+                "no-unused-vars": [
+                    2,
+                    {
+                    "varsIgnorePattern": "init|fillPreferencesWindow"
+                    }
+                ]
+            }
+        },
+        {
+            "files": ["./11/preferences/thresholdPrimary.js"],
+            "rules": {
+                "no-unused-vars": [
+                    2,
+                    {
+                    "varsIgnorePattern": "ThresholdPrimary"
+                    }
+                ]
+            }
+        },
+        {
+            "files": ["./11/preferences/thresholdSecondary.js"],
+            "rules": {
+                "no-unused-vars": [
+                    2,
+                    {
+                    "varsIgnorePattern": "ThresholdSecondary"
+                    }
+                ]
+            }
+        },
+        {
+            "files": ["./11/preferences/menu.js"],
+            "rules": {
+                "no-unused-vars": [
+                    2,
+                    {
+                    "varsIgnorePattern": "addMenu"
+                    }
+                ]
+            }
+        },
+        {
+            "files": ["./11/preferences/general.js"],
+            "rules": {
+                "no-unused-vars": [
+                    2,
+                    {
+                    "varsIgnorePattern": "General"
+                    }
+                ]
+            }
+        },
+        {
+            "files": ["./11/lib/driver.js"],
+            "rules": {
+                "no-unused-vars": [
+                    2,
+                    {
+                    "varsIgnorePattern": "getCurrentEndLimitValue|getCurrentStartLimitValue|getCurrentEndLimit2Value|getCurrentStartLimit2Value|runInstaller|runUpdater|runUninstaller|cleanOutdatedFiles|checkInCompatibility"
+                    }
+                ]
+            }
+        },
+        {
+            "files": ["./11/lib/notifier.js"],
+            "rules": {
+                "no-unused-vars": [
+                    2,
+                    {
+                    "varsIgnorePattern": "notifyGnomeIncompatible|notifyUnsupportedDevice|notifyRemoveOutdatedFiles|notifyNoPolkitInstalled|notifyNeedPolkitUpdate|notifyPolkitInstallationSuccessfull|notifyPolkitUpdateSuccessfull|notifyUnInstallationSuccessfull|notifyUpdateThreshold|notifyUpdateThreshold2"
+                    }
+                ]
+            }
+        },
+        {
+            "files": ["./11/lib/thresholdPanel.js"],
+            "rules": {
+                "no-unused-vars": [
+                    2,
+                    {
+                    "varsIgnorePattern": "ThresholdPanel"
+                    }
+                ]
+            }
+        }
+    ]
+}
