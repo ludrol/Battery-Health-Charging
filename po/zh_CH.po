@@ -1,21 +1,21 @@
-# ITALIAN TRANSLATION.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# ALBANO BATTISTELLA <ALBANO_BATTISTELLA@HOTMAIL.COM>, 2023.
+# Valeria Cubero Tapia <vct@duck.com> 2023
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: battery-health-charging\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-07 08:42-0500\n"
-"PO-Revision-Date: 2023-05-12 08:52-0500\n"
-"Last-Translator: Albano Battistella <albano_battistella@hotmail.com>\n"
-"Language-Team: Italian <LL@li.org>\n"
-"Language: it\n"
+"PO-Revision-Date: 2023-05-11 11:12-0500\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: lib/notifier.js:32
 msgid "Battery Health Charging"
@@ -23,54 +23,51 @@ msgstr "Battery Health Charging"
 
 #: lib/notifier.js:42
 msgid "Battery Health Charging Error"
-msgstr "Battery Health Charging Errore"
+msgstr "Battery Health Charging 错误"
 
 #: lib/notifier.js:55
 msgid "Log Out"
-msgstr "Termina sessione"
+msgstr "注销"
 
 #: lib/notifier.js:61 ui/general.ui:9
 msgid "Settings"
-msgstr "Impostazioni"
+msgstr "设置"
 
 #: lib/notifier.js:77
 msgid ""
 "Unsupported Gnome version.\n"
 "This extension is compatible only with Gnome version 42 and above."
 msgstr ""
-"Questa estensione è compatibile solo con Gnome versione 42 e successive."
+"不支持的 Gnome 版本。\n"
+"此扩展仅兼容Gnome 42及以上版本。"
 
 #: lib/notifier.js:81
 msgid ""
 "Unsupported device.\n"
 "This extension is not compatible with your device."
 msgstr ""
-"Dispositivo non supportato.\n"
-"Questa estensione non è compatibile con il tuo dispositivo."
+"不支持的设备。\n"
+"此扩展与您的设备不兼容。"
 
 #: lib/notifier.js:85
 msgid "Please install polkit from extension settings under Installation."
-msgstr ""
-"Si prega di installare polkit dalle impostazioni di estensione in "
-"Installazione."
+msgstr "请在安装下从扩展设置中安装 polkit 。"
 
 #: lib/notifier.js:89
 msgid "Please update polkit from extension settings under Installation."
-msgstr ""
-"Si prega di installare polkit dalle impostazioni di estensione in "
-"Installazione."
+msgstr "请从安装下的扩展设置中更新 polkit 。"
 
 #: lib/notifier.js:93 lib/notifier.js:97
 msgid "Installation Successfull. Please save your work and logout."
-msgstr "Installazione riuscita. Salva il tuo lavoro e disconnettiti."
+msgstr "安装成功。请保存您的工作并注销。"
 
 #: lib/notifier.js:101
 msgid "Uninstallation Successfull."
-msgstr "Disinstallazione riuscita."
+msgstr "卸载成功。"
 
 #: lib/notifier.js:105
 msgid "Battery Health Charging encountered an unexpected error."
-msgstr "Errore inatteso durante la ricarica della batteria."
+msgstr "Battery Health Charging 遇到错误。"
 
 #: lib/notifier.js:109
 #, javascript-format
@@ -78,14 +75,14 @@ msgid ""
 "Battery 1\n"
 "Charge thresholds are set to %d / %d %%"
 msgstr ""
-"Batteria 1\n"
-"Le soglie di carica sono impostate a %d / %d %%"
+"电池1\n"
+"充电阈值设置为 %d / %d %%"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/notifier.js:114 lib/thresholdPanel.js:332
 #, javascript-format
 msgid "Charge thresholds are set to %d / %d %%"
-msgstr "Le soglie di carica sono impostate a %d / %d %%"
+msgstr "充电阈值设置为 %d / %d %%"
 
 #: lib/notifier.js:119
 #, javascript-format
@@ -93,14 +90,14 @@ msgid ""
 "Battery 1\n"
 "Charging Limit is set to %d%%"
 msgstr ""
-"Batteria 1\n"
-"Limite di ricarica impostato a %d%%"
+"电池1\n"
+"充电限制设置为 %d%%"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/notifier.js:123 lib/thresholdPanel.js:336
 #, javascript-format
 msgid "Charging Limit is set to %d%%"
-msgstr "Limite di ricarica impostato a %d%%"
+msgstr "充电限制设置为 %d%%"
 
 #: lib/notifier.js:127
 #, javascript-format
@@ -108,8 +105,8 @@ msgid ""
 "Battery 2\n"
 "Charge thresholds are set to %d / %d %%"
 msgstr ""
-"Batteria 2\n"
-"Le soglie di carica sono impostate a %d / %d %%"
+"电池2\n"
+"充电阈值设置为 %d / %d %%"
 
 #: lib/notifier.js:132
 #, javascript-format
@@ -117,16 +114,16 @@ msgid ""
 "Battery 2\n"
 "Charging Limit is set to %d%%"
 msgstr ""
-"Batteria 2\n"
-"Limite di ricarica impostato a %d%%"
+"电池2\n"
+"充电限制设置为 %d%%"
 
 #: lib/notifier.js:137
 msgid "Charging Mode is set to Express"
-msgstr "La modalità di ricarica è impostata su Express"
+msgstr "充电方式：Express"
 
 #: lib/notifier.js:141
 msgid "Charging Mode is set to Adaptive"
-msgstr "La modalità di ricarica è impostata su Adattiva"
+msgstr "充电方式：自适应"
 
 #: lib/powerIcon42.js:134 lib/powerIcon.js:133 lib/powerIcon.js:139
 #, javascript-format
@@ -135,97 +132,97 @@ msgstr "%d%%"
 
 #: lib/powerIcon42.js:138
 msgid "Charging stopped (Threshold)"
-msgstr "Ricarica interrotta (Soglia)"
+msgstr "充电已停止 (阈值)"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  10 characters can be displayed here
 #: lib/thresholdPanel42.js:204 lib/thresholdPanel42.js:217
 #: lib/thresholdPanel.js:58 ui/thresholdSecondary.ui:5
 msgid "Battery 2"
-msgstr "Batteria 2"
+msgstr "电池2"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  10 characters can be displayed here
 #: lib/thresholdPanel42.js:204 lib/thresholdPanel42.js:217
 #: lib/thresholdPanel.js:56 preferences/thresholdPrimary.js:48
 msgid "Battery 1"
-msgstr "Batteria 1"
+msgstr "电池1"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/thresholdPanel42.js:223 lib/thresholdPanel.js:98
 #: preferences/thresholdPrimary.js:203 preferences/thresholdSecondary.js:198
 msgid "Full Capacity Mode"
-msgstr "Modalità capacità massima"
+msgstr "长效使用模式"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/thresholdPanel42.js:227 lib/thresholdPanel.js:104
 #: preferences/thresholdPrimary.js:207 preferences/thresholdSecondary.js:202
 msgid "Balanced Mode"
-msgstr "Modalità bilanciata"
+msgstr "平衡模式"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/thresholdPanel42.js:231 lib/thresholdPanel.js:110
 #: preferences/thresholdPrimary.js:211 preferences/thresholdSecondary.js:206
 msgid "Maximum Lifespan Mode"
-msgstr "Modalità ciclo di vita massimo"
+msgstr "最佳保养模式"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/thresholdPanel42.js:235 lib/thresholdPanel.js:115
 msgid "Adaptive Mode"
-msgstr "Modalità adattiva"
+msgstr "自适应模式"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/thresholdPanel42.js:239 lib/thresholdPanel.js:120
 msgid "Express Mode"
-msgstr "Modalità express"
+msgstr "Express 模式"
 
 #: lib/thresholdPanel42.js:398
 #, javascript-format
 msgid "Charge thresholds: %d / %d %%"
-msgstr "Soglia di carica: %d / %d %%"
+msgstr "充电阈值： %d / %d %%"
 
 #: lib/thresholdPanel42.js:401
 #, javascript-format
 msgid "Charging Limit: %d%%"
-msgstr "Limite di carica: %d%%"
+msgstr "充电限制： %d%%"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/thresholdPanel42.js:405 lib/thresholdPanel.js:341
 msgid "Charging Mode: Adaptive"
-msgstr "Modalità Di Carica: Adattiva"
+msgstr "充电方式：自适应"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/thresholdPanel42.js:409 lib/thresholdPanel.js:347
 msgid "Charging Mode: Express"
-msgstr "Modalità Di Carica: Express"
+msgstr "充电方式：Express"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  10 characters can be displayed here
 #: lib/thresholdPanel.js:54
 msgid "Battery"
-msgstr "Batteria"
+msgstr "电量"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  21 characters can be displayed here
 #: lib/thresholdPanel.js:66 lib/thresholdPanel.js:326
 msgid "Battery Charging Mode"
-msgstr "Modalità di ricarica"
+msgstr "充电中"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  13 characters can be displayed here
 #: lib/thresholdPanel.js:400
 msgid "Full Capacity"
-msgstr "Capacità massima"
+msgstr "长效使用模式"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  13 characters can be displayed here
 #: lib/thresholdPanel.js:403
 msgid "Balanced"
-msgstr "Bilanciato"
+msgstr "平衡模式"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  13 characters can be displayed here
 #: lib/thresholdPanel.js:406
 msgid "Max Lifespan"
-msgstr "Ciclo vita massimo"
+msgstr "最佳保养模式"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  13 characters can be displayed here
 #: lib/thresholdPanel.js:409
 msgid "Adaptive"
-msgstr "Adattiva"
+msgstr "自适应"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  13 characters can be displayed here
 #: lib/thresholdPanel.js:412
@@ -238,107 +235,100 @@ msgid ""
 "In threshold settings, if <b>Customise</b> mode is selected, icon type will "
 "switch to <b>Symbols Only</b> and this option will be disabled."
 msgstr ""
-"Selezionare il tipo di icona per indicatore e menu.\n"
-"Nelle impostazioni di soglia, se è selezionata la modalità <b>Personalizza</"
-"b> , il tipo di icona passerà a <b>Solo simboli</b> e questa opzione sarà "
-"disabilitata."
+"选择指示器和菜单的图标类型。\n"
+"在阈值设置中，如果选择了 <b>自定义</b> 模式， 图标类型将切换到 <b>仅符号</"
+"b> ，这个选项将被禁用。"
 
 #: preferences/general.js:64
 msgid "Select the type of icon for indicator and menu."
-msgstr "Seleziona il tipo di icona per indicatore e menu."
+msgstr "选择指示器和菜单的图标类型。"
 
 #: preferences/general.js:184
 msgid "Remove"
-msgstr "Rimuovi"
+msgstr "删除"
 
 #: preferences/general.js:188
 msgid "Install"
-msgstr "Installa"
+msgstr "安装"
 
 #: preferences/general.js:192
 msgid "Update"
-msgstr "Aggiorna"
+msgstr "更新"
 
 #: preferences/thresholdPrimary.js:50
 msgid "Threshold"
-msgstr "Soglia"
+msgstr "阈值"
 
 #: preferences/thresholdPrimary.js:201 preferences/thresholdSecondary.js:196
 msgid "Full Capacity Mode (Currently Active)"
-msgstr "Modalità capacità massima (Attiva)"
+msgstr "长效使用模式（激活)"
 
 #: preferences/thresholdPrimary.js:205 preferences/thresholdSecondary.js:200
 msgid "Balanced Mode (Currently Active)"
-msgstr "Modalità bilanciata (Attiva)"
+msgstr "平衡模式（激活)"
 
 #: preferences/thresholdPrimary.js:209 preferences/thresholdSecondary.js:204
 msgid "Maximum Lifespan Mode (Currently Active)"
-msgstr "Modalità ciclo di vita massimo (Attiva)"
+msgstr "最佳保养模式（激活)"
 
 #: preferences/thresholdPrimary.js:215 preferences/thresholdSecondary.js:210
 #, javascript-format
 msgid "<i>Accepted Value : %d to %d</i>"
-msgstr "<i>Valore accettato: da %d a %d</i>"
+msgstr "<i>接受值： %d 至 %d</i>"
 
 #: ui/general.ui:5
 msgid "General"
-msgstr "Generale"
+msgstr "常规"
 
 #: ui/general.ui:12
 msgid "Choose icon style"
-msgstr "Scegli lo stile dell'icona"
+msgstr "选择图标"
 
 #: ui/general.ui:24
 msgid "Show notifications"
-msgstr "Mostra notifiche"
+msgstr "显示通知"
 
 #: ui/general.ui:25
 msgid "Shows notifications when the threshold is changed."
-msgstr "Mostra notifiche quando la soglia viene modificata."
+msgstr "当阈值被更改时显示通知。"
 
 #: ui/general.ui:36
 msgid "Show preferences button"
-msgstr "Mostra il pulsante delle preferenze"
+msgstr "显示偏好设置按键"
 
 #: ui/general.ui:37
 msgid "Adds a button to open extension preferences from quick settings panel."
-msgstr ""
-"Aggiunge un pulsante per aprire le preferenze di estensione dal pannello "
-"impostazioni rapide."
+msgstr "添加按钮从快速设置面板打开扩展首选项。"
 
 #: ui/general.ui:48
 msgid "Display subtitle with current mode on quick menu button"
-msgstr ""
-"Visualizza i sottotitoli con la modalità corrente sul pulsante del menu "
-"rapido"
+msgstr "在快速菜单按钮上显示当前模式的字幕"
 
 #: ui/general.ui:49
 msgid ""
 "Displays the current mode in the text form (subtitle) on the quick menu "
 "button."
-msgstr ""
-"Visualizza il testo della modalità corrente sul pulsante del menu rapido."
+msgstr "在快速切换菜单按钮上显示当前模式文本。"
 
 #: ui/general.ui:60
 msgid "Show system indicator"
-msgstr "Mostra indicatore di sistema"
+msgstr "显示系统应用标识"
 
 #: ui/general.ui:61
 msgid "Shows an icon in system tray."
-msgstr "Mostra l'icona nella barra delle applicazioni."
+msgstr "在系统托盘中显示图标。"
 
 #: ui/general.ui:72
 msgid "Indicator index"
-msgstr "Indicatore indice"
+msgstr "指标索引"
 
 #: ui/general.ui:73
 msgid "The position relative of indicator icon to other items."
-msgstr ""
-"La posizione relativa dell'icona dell'indicatore rispetto ad altri elementi."
+msgstr "指示器图标相对于其他项目的位置。"
 
 #: ui/general.ui:89
 msgid "Change battery indicator icon behavior"
-msgstr "Cambia il comportamento dell'indicatore batteria"
+msgstr "更改电量指示图标行为"
 
 #: ui/general.ui:90
 msgid ""
@@ -346,22 +336,20 @@ msgid ""
 "quick settings panel when device is plugged into power source, even when "
 "charging is disabled due to charge threshold."
 msgstr ""
-"Commuta l'icona dell'indicatore della batteria a <b>ricarica</b> nel vassoio "
-"di sistema e nel pannello delle impostazioni rapide quando il dispositivo è "
-"collegato alla fonte di alimentazione, anche quando la ricarica è "
-"disabilitata a causa della soglia di ricarica."
+"当设备插入电源时，将系统托盘和快速设置面板中的电池指示器图标切换为<b>充电</"
+"b>，即使充电因充电阈值而被禁用。"
 
 #: ui/general.ui:103
 msgid "Installation"
-msgstr "Installazione"
+msgstr "安装"
 
 #: ui/general.ui:106
 msgid "Install privileges for this user"
-msgstr "Installa privilegi per questo utente"
+msgstr "安装此用户的权限"
 
 #: ui/general.ui:107
 msgid "Install / Update / Remove"
-msgstr "Installa / Aggiorna / Rimuovi"
+msgstr "安装 / 更新 / 删除"
 
 #: ui/general.ui:110
 msgid ""
@@ -375,59 +363,55 @@ msgid ""
 "extension.\n"
 "<b>Remove</b> this polkit policy script before uninstalling this extension."
 msgstr ""
-"Questo dispositivo richiede privilegi di root per modificare il limite di "
-"ricarica. Impostare uno script privilegiato e dare accesso all'utente "
-"tramite polkit.\n"
+"此设备需要超级用户权限才能更改充电限制。设置特权脚本并给予用户通过打折访问权"
+"限。\n"
 "\n"
-"<b>Sono richiesti privilegi di root</b> per installare, aggiornare o "
-"rimuovere lo script polkit criteri.\n"
+"<b>需要Root 权限</b> 来安装、更新或删除 polkit 策略脚本。\n"
 "\n"
-"<b>Installa / Aggiorna </b> questo script polkit policy e continua a usare "
-"questa estensione.\n"
-"<b>Rimuovere</b> questo script polkit policy prima di disinstallare questa "
-"estensione."
+"<b>安装/更新 </b> 此polkit 策略脚本并继续使用此扩展。\n"
+"<b>在卸载此扩展前移除</b> 此polkit 策略脚本。"
 
 #: ui/general.ui:134
 msgid "Symbols Only"
-msgstr "Solo simboli"
+msgstr "仅符号"
 
 #: ui/general.ui:135
 msgid "Symbol and Percentage"
-msgstr "Simbolo e Percentuale"
+msgstr "符号和百分比"
 
 #: ui/general.ui:136
 msgid "Percentage Highlighted"
-msgstr "Percentuale evidenziata"
+msgstr "高亮百分比"
 
 #: ui/menu.ui:6
 msgid "Project page"
-msgstr "Pagina del progetto"
+msgstr "项目主页"
 
 #: ui/menu.ui:10
 msgid "Report a Bug"
-msgstr "Riporta un bug"
+msgstr "报告 Bug"
 
 #: ui/menu.ui:14
 msgid "Rate this extension"
-msgstr "Valuta l'estensione"
+msgstr "评价本扩展"
 
 #: ui/thresholdPrimary.ui:23 ui/thresholdSecondary.ui:23
 msgid "Customize"
-msgstr "Personalizza"
+msgstr "自定义"
 
 #: ui/thresholdPrimary.ui:29 ui/thresholdSecondary.ui:29
 msgid "Default"
-msgstr "Predefinito"
+msgstr "默认"
 
 #: ui/thresholdPrimary.ui:48 ui/thresholdSecondary.ui:48
 msgid "Apply"
-msgstr "Applica"
+msgstr "应用"
 
 #: ui/thresholdPrimary.ui:58 ui/thresholdPrimary.ui:132
 #: ui/thresholdPrimary.ui:206 ui/thresholdSecondary.ui:58
 #: ui/thresholdSecondary.ui:132 ui/thresholdSecondary.ui:206
 msgid "Stop charging threshold value"
-msgstr "Interrompi valore soglia di ricarica"
+msgstr "停止充电阈值"
 
 #: ui/thresholdPrimary.ui:70 ui/thresholdPrimary.ui:105
 #: ui/thresholdPrimary.ui:144 ui/thresholdPrimary.ui:179
@@ -436,10 +420,10 @@ msgstr "Interrompi valore soglia di ricarica"
 #: ui/thresholdSecondary.ui:144 ui/thresholdSecondary.ui:179
 #: ui/thresholdSecondary.ui:218 ui/thresholdSecondary.ui:254
 msgid "Current Value"
-msgstr "Valore Attuale"
+msgstr "当前值"
 
 #: ui/thresholdPrimary.ui:93 ui/thresholdPrimary.ui:167
 #: ui/thresholdPrimary.ui:242 ui/thresholdSecondary.ui:93
 #: ui/thresholdSecondary.ui:167 ui/thresholdSecondary.ui:242
 msgid "Start charging threshold value"
-msgstr "Inizia il valore soglia di ricarica"
+msgstr "开始充电阈值"
