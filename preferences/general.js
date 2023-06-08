@@ -40,6 +40,10 @@ var General = GObject.registerClass({
         'amend_power_indicator',
         'dell_package_option_row',
         'dell_package_option',
+        'dual_battery_settings_row',
+        'dual_bat_correction',
+        'force_discharge_feature',
+        'battery_changeover_threshold',
         'service_installer',
         'install_service',
         'install_service_button',
@@ -62,6 +66,7 @@ var General = GObject.registerClass({
 
         this._showDellOption = settings.get_boolean('show-dell-option');
         this._dell_package_option_row.visible = this._showDellOption;
+        this._dual_battery_settings_row.visible = this._deviceHaveDualBattery;
 
         this._iconModeSensitiveCheck(settings);
         if (this._deviceUsesModeNotValue) {
@@ -174,6 +179,27 @@ var General = GObject.registerClass({
             settings.connect('changed::default-threshold2', () => {
                 this._iconModeSensitiveCheck(settings);
             });
+
+            settings.bind(
+                'dual-bat-correction',
+                this._dual_bat_correction,
+                'active',
+                Gio.SettingsBindFlags.DEFAULT
+            );
+
+            settings.bind(
+                'supports-force-discharge',
+                this._force_discharge_feature,
+                'active',
+                Gio.SettingsBindFlags.DEFAULT
+            );
+
+            settings.bind(
+                'change-over-value',
+                this._battery_changeover_threshold,
+                'value',
+                Gio.SettingsBindFlags.DEFAULT
+            );
         }
 
         settings.connect('changed::indicator-position-max', () => {

@@ -189,5 +189,21 @@
             <default>55</default>
             <summary>maxlife mode start threshold applied value</summary>
         </key>
+        <key name="drain-mode" type="s">
+            <default>"auto"</default>
+            <summary>battery drain order mode</summary>
+        </key>
+        <key name="dual-bat-correction" type="b">
+            <default>false</default>
+            <summary>Correct assignment of dual battery</summary>
+        </key>
+        <key name="supports-force-discharge" type="b">
+            <default>false</default>
+            <summary>Support force-discharge</summary>
+        </key>
+        <key name="change-over-value" type="i">
+            <default>20</default>
+            <summary>Change over value for force discharge</summary>
+        </key>
     </schema>
 </schemalist>

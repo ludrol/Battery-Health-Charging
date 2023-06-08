@@ -109,6 +109,52 @@
             </child>
           </object>
         </child>
+        <child>
+          <object class="AdwExpanderRow" id="dual_battery_settings_row">
+            <property name="title" translatable="yes">Thinkpad settings</property>
+            <property name="subtitle" translatable="yes">Additional Settings for thinkpad dual battery</property>
+            <child>
+              <object class="AdwActionRow" id="dual_bat_correction_row">
+                <property name="title" translatable="yes">Correct Battery Assignment</property>
+                <property name="subtitle" translatable="yes">For Battery Eject Feature to work to correctly, Battery 1 should be assigned as Internal Battery And Battery 2 as External Battery. If your laptop assigns, Internal Battery as Battery 2 and External Battery as Battery 1, enable this setting. Disable and Re-enable this extension after changing this setting. </property>
+                <property name="activatable-widget">dual_bat_correction</property>
+                <child>
+                  <object class="GtkSwitch" id="dual_bat_correction">
+                    <property name="valign">center</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow" id="force_discharge_feature_row">
+                <property name="title" translatable="yes">Extension controls discharge of batteries</property>
+                <property name="subtitle" translatable="yes">Enable options in quicksetting allow extension to control discharging of batteries</property>
+                <property name="activatable-widget">force_discharge_feature</property>
+                <child>
+                  <object class="GtkSwitch" id="force_discharge_feature">
+                    <property name="valign">center</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow" id="battery_changeover_threshold_row">
+                <property name="title" translatable="yes">Charging start value</property>
+                <property name="subtitle" translatable="yes">Start charging when the level is below this value</property>
+                <property name="activatable-widget">battery_changeover_threshold</property>
+                <child>
+                  <object class="GtkSpinButton" id="battery_changeover_threshold">
+                    <property name="valign">center</property>
+                    <property name="adjustment">battery_changeover_threshold_adjustment</property>
+                    <property name="numeric">True</property>
+                    <property name="snap-to-ticks">True</property>
+                    <property name="update-policy">if-valid</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
       </object>
     </child>
     <child>
@@ -157,5 +203,11 @@
   </object>
   <object class="GtkAdjustment" id="indicator_position_adjustment">
     <property name="step-increment">1.0</property>
+  </object>
+  <object class="GtkAdjustment" id="battery_changeover_threshold_adjustment">
+    <property name="step-increment">1.0</property>
+    <property name="upper">50.0</property>
+    <property name="lower">6.0</property>
+    <property name="value">75.0</property>
   </object>
 </interface>
