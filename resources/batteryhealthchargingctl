@@ -11,6 +11,7 @@ BAT1_START_PATH='/sys/class/power_supply/BAT1/charge_control_start_threshold'
 LG_PATH='/sys/devices/platform/lg-laptop/battery_care_limit'
 LENOVO_PATH='/sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode'
 SONY_PATH='/sys/devices/platform/sony-laptop/battery_care_limiter'
+SONY_HIGHSPEED_CHARGING_PATH='/sys/devices/platform/sony-laptop/battery_highspeed_charging'
 HUAWEI_PATH='/sys/devices/platform/huawei-wmi/charge_control_thresholds'
 SAMSUNG_PATH='/sys/devices/platform/samsung/battery_life_extender'
 ACER_PATH='/sys/bus/wmi/drivers/acer-wmi-battery/health_mode'
@@ -81,6 +82,10 @@ case "$TOOLCMD" in
         ;;
     SONY)
         echo "$ARG1" > "$SONY_PATH"
+        exit ${EXIT_SUCCESS}
+        ;;
+    SONY_HIGHSPEED_CHARGING)
+        echo "$ARG1" > "$SONY_HIGHSPEED_CHARGING_PATH"
         exit ${EXIT_SUCCESS}
         ;;
     HUAWEI)
